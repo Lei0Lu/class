@@ -1,0 +1,5 @@
+D:\Програмирование\С#\дз\27.09.2022\27.09.2022\obj\Debug\net6.0\27.09.2022.csproj.AssemblyReference.cache
+D:\Програмирование\С#\дз\27.09.2022\27.09.2022\obj\Debug\net6.0\27.09.2022.GeneratedMSBuildEditorConfig.editorconfig
+D:\Програмирование\С#\дз\27.09.2022\27.09.2022\obj\Debug\net6.0\27.09.2022.AssemblyInfoInputs.cache
+D:\Програмирование\С#\дз\27.09.2022\27.09.2022\obj\Debug\net6.0\27.09.2022.AssemblyInfo.cs
+D:\Програмирование\С#\дз\27.09.2022\27.09.2022\obj\Debug\net6.0\27.09.2022.csproj.CoreCompileInputs.cache
