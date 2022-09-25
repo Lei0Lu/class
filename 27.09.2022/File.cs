@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace _27._09._2022
 {
-    internal class File
+    internal class Filel
     {
         public string Name { get; set; }
         public FileExtension Extension { get; set; }
         public double Size { get; set; }
         public DateTime Datetime { get; set; }
 
-        public File(string name, FileExtension extension, double size, DateTime dateTime)
+        public Filel(string name, FileExtension extension, double size, DateTime dateTime)
         {
             Name = name;
             Extension = extension;
@@ -21,9 +21,10 @@ namespace _27._09._2022
             Datetime = dateTime;
         }
 
-        public override string ToString()
+        public void ToString()
         {
-            return $"{Name}.{Extension}  {Size}  {Datetime}";
+
+            Console.WriteLine( $"{Name}.{Extension}  {Size}  {Datetime}");
         }
 
 
@@ -35,12 +36,12 @@ namespace _27._09._2022
             {
                 return $"{Size} байт";
             }
-            if (Size >= 1000 || Size < 1000000)
+            else if (Size >= 1000 || Size < 1000000)
             {
 
                 return $"{Size / 1024} килобайт";
             }
-            if (Size >= 1000000)
+            else if (Size >= 1000000)
             {
 
                 return $"{Size / 1048576} мегабайт";
@@ -51,16 +52,7 @@ namespace _27._09._2022
             }
 
         }
-        public enum FileExtension
-        {
-
-            txt,
-            rar,
-            pdf,
-            docx,
-
-
-        }
+     
     }
 
 
@@ -81,4 +73,4 @@ namespace _27._09._2022
 }
 
 
-}
+
